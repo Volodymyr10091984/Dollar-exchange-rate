@@ -3,7 +3,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
 from matplotlib.figure import Figure
 
 
-# class widget class for graphics 
+# class widget for graphics 
 class MplWidget(QWidget):
     def __init__(self, parent=None):
         QWidget.__init__(self, parent)
